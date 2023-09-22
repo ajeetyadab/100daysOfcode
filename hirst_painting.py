@@ -30,8 +30,7 @@ position_y = -270
 timmy.speed("fastest")
 while True :
     for i in range(23):
-        timmy.color(random.choice(li))
-        timmy.dot(30)
+        timmy.dot(25 ,random.choice(li))
         timmy.penup()
         timmy.forward(50)
         
